@@ -1,5 +1,5 @@
 # Learning-Python-Flask
- Web App made with Python and Flask for learning purposes. [UNFINISHED]
+ Web App made with Python and Flask for learning purposes. Database used: SQLAlchemy. [UNFINISHED]
 
 ![Python1](https://user-images.githubusercontent.com/50056973/75904591-c5a58400-5e43-11ea-8da8-2d0391a81343.png)
 
