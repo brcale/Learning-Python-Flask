@@ -1,14 +1,8 @@
 from flask import Flask, render_template, url_for, flash, redirect
 from sqlalchemy import create_engine
-
 from forms import RegistrationFrom, LoginForm
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
-
-engine = create_engine(
-'sqlite:///restaurantmenu.db',
-connect_args={'check_same_thread': False}
-)
 
 app=Flask(__name__)
 app.config['SECRET_KEY'] = '5961cf989b23694509406f0c9d5c9f86'
